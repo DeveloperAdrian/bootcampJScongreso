@@ -1,0 +1,49 @@
+:root{
+    --primary-color:#0e00a3;
+    --secondary-color:#1300E0;
+    --success-color:#830C1C;
+    --danger-color:#ED311D;
+    --warning-color:#BD0F12;
+    --info-color:#E7ECEE;
+    --dark-color:#3B3B40;
+}
+.bg-primary-color{
+    background: var(--primary-color);
+}
+.bg-warning-color{
+    background: var(--warning-color);
+}
+
+
+body{
+    background: var(--info-color);
+    
+}
+main{
+    padding: 5rem;
+}
+
+.letra{
+    font-size: xx-large;
+    color: white;
+}
+.container-fluid{
+    padding: 1rem;
+    
+    
+
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+#imagenCongreso{
+    display: flex;
+    
+    margin: auto;
+    padding: 1.5rem;
+}
+
+
+
